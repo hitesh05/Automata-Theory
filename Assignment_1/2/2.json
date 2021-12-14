@@ -1,0 +1,13 @@
+{
+  "axiom": "-F",
+  "productions": {
+    "F": "F-F++F-F"
+  },
+  "finals": {
+    "+": "() => { ctx.rotate((Math.PI/180) * -75) }",
+    "-": "() => { ctx.rotate((Math.PI/180) * 75)}",
+    "F": "() => { ctx.beginPath()   ctx.moveTo(0,0)   ctx.lineTo(0, 40/(Lsys.iterations + 1))   ctx.stroke()   ctx.translate(0, 40/(Lsys.iterations + 1))}",
+    "[": "()=>{ ctx.save()}",
+    "]": "()=>{ctx.restore()}"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "axiom": "$F",
+  "productions": {
+    "F": "GG[+F]GF[-F]GF"
+  },
+  "finals": {
+    "+": "() => { ctx.rotate((Math.PI / 180) * -45) }",
+    "-": "() => { ctx.rotate((Math.PI / 180) * 45) }",
+    "$": "() => { ctx.rotate((Math.PI / 180) * 180) }",
+    "F": "() => { ctx.beginPath()   ctx.moveTo(0, 0)   ctx.lineTo(0, 120 / (Lsys.iterations + 1))   ctx.stroke()   ctx.translate(0, 120 / (Lsys.iterations + 1)) }",
+    "G": "() => { ctx.beginPath()   ctx.moveTo(0, 0)   ctx.lineTo(0, 120 / (Lsys.iterations + 1))   ctx.stroke()   ctx.translate(0, 120 / (Lsys.iterations + 1)) }",
+    "[": "() => { ctx.save() }",
+    "]": "() => { ctx.restore() }"
+  }
+}
