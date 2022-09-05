@@ -1,6 +1,19 @@
 # Automata-Theory
 Coding assignments done for AT course at IIIT Hyderabad
 
+## Programming Assignment-1
+
+### Ans 1: 
+The images are in the images directory of Q1. They have been further divided into 4 folders corresponding to part number. 1,2,4 have 1 image each while folder 3 has 5 images (as asked in the question).
+
+The code is in the src directory. The code for each part has been further divided into directories named by part number (1,2,3,4). Each directory has the corresponding index.js and index.html file for that part.
+
+### Ans 2:
+- After 2 iterations,  there are 2 larger branches, and 4 very small branches. After 3 iterations. There are 2 very large, 4 small, and 8 very small branches. Therefore, after 1 iteration, there would have been only 2 small branches. Hence we have 2 bramch symbols in the production rules.  The length of the main shoot is twice that of the branches, hence the ‘F’ : ‘FF’ rule. All ‘F’ and ‘X’ are treated as a line segment. \
+
+- The angle used is 75 degree to match the figure given in the document. Axiom is ‘-F’ to tilt the lsystem. The ‘-’ and ‘+’ in the production rules is used to form the star like shape. The ‘F’ is treated as a line segment for visualisation. 4 ‘F’s’ in the rule form 4 lines with 2 tilted at an angle (like a triangle). Multiple iterations give us the required shape. \
+
+
 ## Programming Assignment 2
 
 ### How to run
